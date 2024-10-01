@@ -98,6 +98,7 @@ function q5() {
     }
 }
 
-function sair (){
-    alert("Obrigado por visitar o site!")
+document.getElementById("#botaoOuLink").onclick = function()
+{
+    window.close();
 }
